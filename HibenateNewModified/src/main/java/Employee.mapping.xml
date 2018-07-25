@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<hibernate-mapping>
+   <class name ="com.scp.HibenateNew.Employee" table ="EMPLOYEE_DETAILS">
+      
+      
+      <id name ="eid" type = "int" column = "E_id">
+         
+      </id>
+      
+      <property name ="ename" column = "E_name" type ="java.lang.String"/>
+     
+      <property name = "age" column = "E_age" type = "int"/>
+     
+      <property name = "esalary" column = "E_salary" type = "java.lang.Double"/>
+      
+      
+   </class>
+</hibernate-mapping>
